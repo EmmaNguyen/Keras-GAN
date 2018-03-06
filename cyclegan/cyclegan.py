@@ -36,7 +36,7 @@ class CycleGAN():
 
         # Number of filters in the first layer of G and D
         self.gf = 32
-        self.df = 64
+        self.df = 32
 
         # Loss weights
         self.lambda_cycle = 10.0  # Cycle-consistency loss
