@@ -111,7 +111,7 @@ class CycleGAN():
 
         # Downsampling
         d1 = conv2d(d0, self.gf)
-        d2 = conv2d(d1, self.gf*2)
+        d2 = conv2d(d1, self.gf)
         d3 = conv2d(d2, self.gf*4)
         d4 = conv2d(d3, self.gf*8)
 
